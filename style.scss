@@ -33,71 +33,76 @@ body {
     translate: -50% -50%;
     z-index: 2;
 
-    img {
-      width: 110px;
-      height: 110px;
-      border: 5px solid white;
-      border-radius: 50%;
-      position: relative;
-      top: 40%;
-      left: 50%;
-      translate: -50% -50%;
-    }
-    .detail {
-      width: fit-content;
+    .inner-container {
+      width: 100%;
+      height: 100%;
+
       display: flex;
       flex-direction: column;
-      margin: 0 auto;
-      position: relative;
-      top: 38%;
-      translate: 0 -50%;
-      text-align: center;
-
-      .personal {
-        display: flex;
-        padding-bottom: 7px;
-
-        .name {
-          font-weight: 700;
-          padding-right: 8px;
-        }
-
-        .age {
-          color: hsl(227, 10%, 46%);
-        }
-      }
-
-      .city {
-        color: hsl(227, 10%, 46%);
-        font-size: 0.8rem;
-      }
-    }
-
-    .state {
-      width: 100%;
-      margin: 0 auto;
-      padding: 20px 50px 0 50px;
-      display: flex;
       justify-content: space-between;
+      align-items: center;
 
-      position: relative;
-      top: 45%;
-      translate: 0% -50%;
+      position: absolute;
+      margin: 0 auto;
+      padding: 30% 10px 30px 10px;
 
-      border-top: 0.5px solid hsl(0, 0%, 59%);
+      z-index: 3;
+      img {
+        width: 110px;
+        height: 110px;
+        border: 5px solid white;
+        border-radius: 50%;
+      }
 
-      div {
+      .detail {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         text-align: center;
 
-        .number {
-          font-weight: 700;
+        .personal {
+          display: flex;
+          padding-bottom: 7px;
+
+          .name {
+            font-weight: 700;
+            padding-right: 8px;
+          }
+
+          .age {
+            color: hsl(227, 10%, 46%);
+          }
         }
 
-        .type {
-          color: hsl(0, 0%, 59%);
-          font-size: 0.5rem;
-          letter-spacing: 1px;
-          padding-top: 5px;
+        .city {
+          color: hsl(227, 10%, 46%);
+          font-size: 0.8rem;
+        }
+      }
+
+      .state {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 50px 0 50px;
+        display: flex;
+        justify-content: space-between;
+
+        border-top: 0.5px solid hsl(0, 0%, 59%);
+
+        div {
+          text-align: center;
+
+          .number {
+            font-weight: 700;
+          }
+
+          .type {
+            color: hsl(0, 0%, 59%);
+            font-size: 0.5rem;
+            letter-spacing: 1px;
+            padding-top: 5px;
+          }
         }
       }
     }
@@ -113,6 +118,7 @@ body {
 
     width: 100%;
     height: 40%;
+    z-index: 1;
   }
 }
 

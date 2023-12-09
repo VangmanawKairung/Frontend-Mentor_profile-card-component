@@ -28,60 +28,62 @@ body .container {
   translate: -50% -50%;
   z-index: 2;
 }
-body .container img {
+body .container .inner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto;
+  padding: 30% 10px 30px 10px;
+  z-index: 3;
+}
+body .container .inner-container img {
   width: 110px;
   height: 110px;
   border: 5px solid white;
   border-radius: 50%;
-  position: relative;
-  top: 40%;
-  left: 50%;
-  translate: -50% -50%;
 }
-body .container .detail {
+body .container .inner-container .detail {
   width: -moz-fit-content;
   width: fit-content;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  position: relative;
-  top: 38%;
-  translate: 0 -50%;
   text-align: center;
 }
-body .container .detail .personal {
+body .container .inner-container .detail .personal {
   display: flex;
   padding-bottom: 7px;
 }
-body .container .detail .personal .name {
+body .container .inner-container .detail .personal .name {
   font-weight: 700;
   padding-right: 8px;
 }
-body .container .detail .personal .age {
+body .container .inner-container .detail .personal .age {
   color: hsl(227, 10%, 46%);
 }
-body .container .detail .city {
+body .container .inner-container .detail .city {
   color: hsl(227, 10%, 46%);
   font-size: 0.8rem;
 }
-body .container .state {
+body .container .inner-container .state {
   width: 100%;
   margin: 0 auto;
   padding: 20px 50px 0 50px;
   display: flex;
   justify-content: space-between;
-  position: relative;
-  top: 45%;
-  translate: 0% -50%;
   border-top: 0.5px solid hsl(0, 0%, 59%);
 }
-body .container .state div {
+body .container .inner-container .state div {
   text-align: center;
 }
-body .container .state div .number {
+body .container .inner-container .state div .number {
   font-weight: 700;
 }
-body .container .state div .type {
+body .container .inner-container .state div .type {
   color: hsl(0, 0%, 59%);
   font-size: 0.5rem;
   letter-spacing: 1px;
@@ -95,6 +97,7 @@ body .container::before {
   position: absolute;
   width: 100%;
   height: 40%;
+  z-index: 1;
 }
 
 body::before {
