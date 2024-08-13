@@ -91,7 +91,7 @@ body .container .inner-container .state div .type {
 }
 body .container::before {
   content: "";
-  background-image: url(images/bg-pattern-card.svg);
+  background-image: url(source/images/bg-pattern-card.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -101,14 +101,14 @@ body .container::before {
 }
 
 body::before {
-  content: url(images/bg-pattern-top.svg);
+  content: url(source/images/bg-pattern-top.svg);
   position: fixed;
   bottom: 40%;
   right: 50%;
 }
 
 body::after {
-  content: url(images/bg-pattern-bottom.svg);
+  content: url(source/images/bg-pattern-bottom.svg);
   position: fixed;
   top: 40%;
   left: 50%;
