@@ -1,115 +1,115 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-:root {
-  font-size: 18px;
-}
-
 * {
   padding: 0;
   margin: 0;
   overflow: hidden !important;
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
 }
 
 body {
-  background-color: hsl(185, 75%, 39%);
   width: 100vw;
   height: 100vh;
+  background: hsl(185, 75%, 39%);
+  background-image: url(./sources/images/bg-pattern-top.svg), url(./sources/images/bg-pattern-bottom.svg);
+  background-position: left -50vw top -60vh, right -75vw bottom -45vh;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 110vw 90vh, 130vw 90vh;
 }
-body .container {
-  width: 330px;
-  height: 390px;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 20px;
-  box-shadow: 0px 10px 40px hsla(229, 23%, 23%, 0.5);
+body main {
+  width: 325px;
+  height: 374px;
+  background-color: white;
+  box-shadow: 0 10px 50px 20px rgba(45, 50, 72, 0.15);
+  border-radius: 15px;
+  background-image: url(./sources/images/bg-pattern-card.svg);
+  background-size: fit-content 240px;
+  background-repeat: no-repeat;
+  background-position-x: center;
   position: absolute;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  z-index: 2;
-}
-body .container .inner-container {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  position: absolute;
-  margin: 0 auto;
-  padding: 30% 10px 30px 10px;
-  z-index: 3;
+  justify-content: space-between;
+  padding: 87px 0 23px 0;
 }
-body .container .inner-container img {
-  width: 110px;
-  height: 110px;
+body main img {
+  width: 106px;
+  height: 106px;
   border: 5px solid white;
   border-radius: 50%;
 }
-body .container .inner-container .detail {
-  width: -moz-fit-content;
-  width: fit-content;
+body main .detail {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  text-align: center;
+  align-items: center;
+  padding-bottom: 5px;
 }
-body .container .inner-container .detail .personal {
+body main .detail .personal {
   display: flex;
-  padding-bottom: 7px;
 }
-body .container .inner-container .detail .personal .name {
+body main .detail .personal .name {
+  color: hsl(229, 23%, 23%);
   font-weight: 700;
-  padding-right: 8px;
+  margin-right: 10px;
+  margin-bottom: 8px;
 }
-body .container .inner-container .detail .personal .age {
-  color: hsl(227, 10%, 46%);
+body main .detail .city {
+  font-size: 0.75rem;
 }
-body .container .inner-container .detail .city {
-  color: hsl(227, 10%, 46%);
-  font-size: 0.8rem;
-}
-body .container .inner-container .state {
+body main hr {
   width: 100%;
-  margin: 0 auto;
-  padding: 20px 50px 0 50px;
+  border-top: 1px solid rgba(150, 150, 150, 0.3);
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+body main .state {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  border-top: 0.5px solid hsl(0, 0%, 59%);
+  padding: 0 50px 0 40px;
 }
-body .container .inner-container .state div {
-  text-align: center;
+body main .state .follower-state,
+body main .state .like-state,
+body main .state .photo-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-body .container .inner-container .state div .number {
+body main .state .follower-state .number,
+body main .state .like-state .number,
+body main .state .photo-state .number {
+  color: hsl(229, 23%, 23%);
   font-weight: 700;
+  margin-bottom: 5px;
 }
-body .container .inner-container .state div .type {
+body main .state .follower-state .type,
+body main .state .like-state .type,
+body main .state .photo-state .type {
+  font-size: 0.55rem;
+  letter-spacing: 2px;
   color: hsl(0, 0%, 59%);
-  font-size: 0.5rem;
-  letter-spacing: 1px;
-  padding-top: 5px;
 }
-body .container::before {
-  content: "";
-  background-image: url(source/images/bg-pattern-card.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 40%;
-  z-index: 1;
+body main .state .like-state {
+  padding-right: 7px;
 }
 
-body::before {
-  content: url(source/images/bg-pattern-top.svg);
-  position: fixed;
-  bottom: 40%;
-  right: 50%;
-}
-
-body::after {
-  content: url(source/images/bg-pattern-bottom.svg);
-  position: fixed;
-  top: 40%;
-  left: 50%;
+@media (min-width: 1440px) {
+  body {
+    background-position: left -12vw top -60vh, right -11vw bottom -76vh;
+    background-size: 60%, 62%;
+  }
+  body main {
+    width: 350px;
+    height: 375px;
+  }
+  body main .state {
+    padding: 0 50px 0 45px;
+  }
 }

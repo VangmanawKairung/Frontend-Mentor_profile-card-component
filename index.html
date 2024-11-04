@@ -3,41 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="soucre/images/favicon-32x32.png"
+      href="./sources/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="inner-container">
-        <img src="source/images/image-victor.jpg" alt="Profile image" />
-        <div class="detail">
-          <div class="personal">
-            <div class="name">Victor Crest</div>
-            <div class="age">26</div>
-          </div>
-          <div class="city">London</div>
+    <main class="container">
+      <img
+        src="./sources/images/image-victor.jpg"
+        alt="Profile image of Victor Crest"
+        class="profile-image"
+      />
+      <div class="detail">
+        <div class="personal">
+          <h1 class="name">Victor Crest</h1>
+          <p class="age">26</p>
         </div>
-        <div class="state">
-          <div class="follower-state">
-            <div class="number">80K</div>
-            <div class="type">Followers</div>
-          </div>
-          <div class="like-state">
-            <div class="number">803K</div>
-            <div class="type">Likes</div>
-          </div>
-          <div class="photo-state">
-            <div class="number">1.4K</div>
-            <div class="type">Photos</div>
-          </div>
+        <p class="city">London</p>
+      </div>
+      <hr />
+      <div class="state">
+        <div class="follower-state">
+          <p class="number">80K</p>
+          <span class="type">Followers</span>
+        </div>
+        <div class="like-state">
+          <p class="number">803K</p>
+          <span class="type">Likes</span>
+        </div>
+        <div class="photo-state">
+          <p class="number">1.4K</p>
+          <span class="type">Photos</span>
         </div>
       </div>
-    </div>
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Kairung Vangmanaw</a>.
+      </div> -->
+    </main>
   </body>
 </html>
