@@ -143,21 +143,3 @@ body {
 .footer__link:focus-visible {
   text-decoration: underline;
 }
-
-#design-overlay {
-  /* display: none; */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-width: 375px;
-  height: auto;
-  object-fit: cover;
-  opacity: 0.4;
-  pointer-events: none;
-  z-index: 9999;
-  filter: hue-rotate(150deg);
-  @media (min-width: 1025px) {
-    max-width: 1440px;
-  }
-}
