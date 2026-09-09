@@ -1,24 +1,21 @@
 # Frontend Mentor - Profile card component solution
 
-![](./design/preview.jpg)
-
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Frontend Mentor - Profile card component solution](#frontend-mentor---profile-card-component-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Challenge result](#challenge-result)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -28,51 +25,95 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Build out the project to the designs provided
 
-### Challenge result
-
-- 16 Sep 2025
-  - ✅ Build out the project to the designs provided
-
 ### Screenshot
 
-- Mobile view
+![](./screenshot.jpg)
 
-  <img src="./screenshots/Mobile-view.png" alt="Profile card component solution - Mobile view" width="375px">
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-- Desktop view
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-  <img src="./screenshots/Desktop-view.png" alt="Profile card component solution - Desktop view">
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Profile Card Component using HTML and CSS](https://www.frontendmentor.io/solutions/test-K8YxS9V1Nj)
-- Live Site URL: [Frontend Mentor Challenge | Profile card component](https://vangmanawkairung.github.io/frontend-mentor-profile-card-component/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties (variables)
+- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Responsive design with media queries
-- Google Fonts (Kumbh Sans)
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-One of the key things I learned in this project was how to properly position background images in CSS. Since background placement depends on the screen size, I experimented with different values and used functions like `calc()` to fine-tune the positions. This helped me understand background positioning more deeply and made me more confident in handling responsive layouts.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+
+To see how you can add code snippets, see below:
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
+
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-In future projects, I would like to focus on writing cleaner and more concise CSS. I believe there are opportunities to group styles more effectively and use variables or snippets in a way that reduces repetition. Improving the structure and maintainability of my code will make it easier to scale and more professional overall. I also want to keep practicing responsive design techniques to ensure my layouts adapt smoothly across different screen sizes.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
+### Useful resources
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
+### AI Collaboration
+
+Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+
+- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+- What worked well? What didn't?
+
+**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
 
 ## Author
 
-- GitHub: [Kirung Vangmanaw](https://github.com/VangmanawKairung)
-- Frontend Mentor - [@VangmanawKairung](https://www.frontendmentor.io/profile/VangmanawKairunge)
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-I would like to sincerely thank myself for staying persistent and continuing to push forward. A big thank you to the **Frontend Mentor team** for creating this challenge and giving me the opportunity to practice and improve my skills. I am also grateful to **OpenAI** and **Google** for developing **ChatGPT** and **Gemini**, which helped me complete this challenge and explore new techniques. A special thanks to **Figma** for providing an intuitive design tool that made translating designs into code much smoother. Lastly, I want to express my appreciation to every tool, program, and source of encouragement that supported me throughout this process. Without them, completing this challenge successfully would not have been possible.
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
